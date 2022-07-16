@@ -45,6 +45,11 @@ body {
   color: var(--primary-text-color-theme-light);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -139,10 +144,6 @@ body {
 .contact-phone-number-theme-light,
 .contact-email-theme-light {
   color: var(--secondary-text-color-theme-light);
-}
-
-.header-contacts .contact-phone-number,
-.header-contacts .contact-email {
   font-weight: 500;
 }
 
@@ -162,8 +163,6 @@ body {
 
 .hero-container {
   min-height: 600px;
-  padding-top: 94px;
-  padding-bottom: 94px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -205,11 +204,27 @@ body {
 /* =============== /Hero =============== */
 
 /* =============== Benefits =============== */
+.benefits {
+  padding-bottom: 47px;
+}
+
 .benefits-title {
   display: none;
 }
 
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.benefits-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
 .benefits-item-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -226,6 +241,10 @@ body {
 /* =============== /Benefits =============== */
 
 /* =============== About Us =============== */
+.about-us {
+  padding-top: 47px;
+}
+
 .about-us-title {
   font-size: 36px;
   line-height: 1.16;
