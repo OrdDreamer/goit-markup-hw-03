@@ -245,6 +245,17 @@ body {
   padding-top: 47px;
 }
 
+.about-us-list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.about-us-item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+
 .about-us-title {
   font-size: 36px;
   line-height: 1.16;
