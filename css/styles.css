@@ -84,6 +84,10 @@ body {
 /* =============== /Components =============== */
 
 /* =============== Header =============== */
+.logo-theme-light {
+  margin-right: 93px;
+}
+
 .logo-theme-light,
 .logo-theme-light:link,
 .logo-theme-light:visited,
@@ -106,7 +110,6 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  margin-left: 93px;
 }
 
 .menu-item:not(:last-child) {
@@ -323,9 +326,6 @@ body {
 /* =============== Foter =============== */
 .page-footer {
   background: var(--dark-background-color);
-}
-
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
